@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+#currencySelect {
+  height: 40px;
+  width: 200px;
+  background-color: #eac46b;
+  border-radius: 5px;
+  font-weight: bold;
+  color: black;
+}
+.curr-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  margin-top: 30px;
+}
+#amt-input {
+  height: 40px;
+  width: 200px;
+}
+#converted-amt {
+  font-size: 24px;
+  font-weight: bold;
+}
